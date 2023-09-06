@@ -1,0 +1,30 @@
+body, menu{
+    margin: 0;
+    }
+    menu {
+    background-color:white;
+    width: 5em;
+    }
+    menu ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+    }
+    menu li{
+    padding: 1em;
+    list-style: none;
+    }
+    menu a{
+    text-decoration: none;
+    color: white;
+    color: rgba(255, 255, 255, 0.6);
+    }
+    menu a:hover{
+    color: white;
+    }    
+    .main {
+        display: flex;
+        background-color:lightgray;
+    }
