@@ -19,12 +19,12 @@ body, menu{
     menu a{
     text-decoration: none;
     color:white;
-    color: rgba(255, 255, 255, 0.6);
+    /* color: rgba(255, 255, 255, 0.6); */
     }
     menu a:hover{
     color: white;
     }    
-    .main {
+    .principal {
         display: flex;
-        background-color:lightgray;
+        background-color:blue;
     }
