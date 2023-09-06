@@ -2,7 +2,7 @@ body, menu{
     margin: 0;
     }
     menu {
-    background-color:white;
+    background-color:black;
     width: 5em;
     }
     menu ul{
@@ -18,7 +18,7 @@ body, menu{
     }
     menu a{
     text-decoration: none;
-    color: white;
+    color:white;
     color: rgba(255, 255, 255, 0.6);
     }
     menu a:hover{
