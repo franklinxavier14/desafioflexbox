@@ -35,7 +35,7 @@ body, menu{
     }
     .usuario {
         background-color: yellow;
-        flex-direction: column; /* Para apilar los elementos uno encima del otro */
+        flex-direction: row;
         padding: 1em; 
         display: flex;
    
@@ -46,11 +46,49 @@ body, menu{
         height: 3rem;
     }
     .usuario p {
+        padding-left: 1em;
+        padding-top: 0.2em;
         margin: 0;
-        font-size: small;
+        font-size: x-small;
 
     }
     .contactos {
+        display: flex;
+        flex-direction: row;
+        
 
+    }
+    .estado {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0%;
+        background-color: aqua;
+
+    }
+    .activo {
+        display: flex;
+        justify-content: space-between;
+       
+
+    }
+    .iconos {
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 0%;
+        align-items: center;
+        padding-right: 1em;
+
+    }
+    .iconos i{
+        padding-right: 0.5em;
+        font-size: larger;
+
+
+    }
+    .usuario h5 {
+        padding-left: 0.8em;
+        padding-top: 0.2em;
+        margin: 0;
+        font-weight: normal;
 
     }
