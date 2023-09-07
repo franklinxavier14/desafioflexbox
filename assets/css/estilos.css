@@ -6,49 +6,19 @@ body, menu{
         display: flex;
     }
     menu {
-    background-color:white;
-    width: 12em;
+    background-color:blue;
+    width: 16em;
+    height: 100vh;
+    padding-top: 1em;
     }
-    menu ul{
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh
-    }
-    menu li{
-    padding: 1em;
-    list-style: none;
-    }
-    menu a{
-    text-decoration: none;
-    color:white;
-    /* color: rgba(255, 255, 255, 0.6); */
-    }
-    menu a:hover{
-    color: white;
-    }    
     .principal {
-        /* display: flex; */
-        background-color:aliceblue;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
+    background-color:aliceblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
         
-    }
-    .textologo {
-        font-size: 1.4em;
-        font-stretch: expanded;
-        height: 8em;
-        width: 100%;
-        padding: 1em 8em;
-        background-color:
-        yellow;
-        text-align: center;
-        color: white;
-        text-shadow: 1px 1px #000;
     }
     .principal img {
        width: 15em;
@@ -65,6 +35,8 @@ body, menu{
     }
     .usuario {
         background-color: yellow;
+        flex-direction: column; /* Para apilar los elementos uno encima del otro */
+        padding: 1em; 
         display: flex;
    
     }
@@ -73,5 +45,12 @@ body, menu{
         width: 3rem;
         height: 3rem;
     }
+    .usuario p {
+        margin: 0;
+        font-size: small;
 
-              
+    }
+    .contactos {
+
+
+    }
