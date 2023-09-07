@@ -6,7 +6,7 @@ body, menu{
         display: flex;
     }
     menu {
-    background-color:black;
+    background-color:white;
     width: 12em;
     }
     menu ul{
@@ -63,4 +63,15 @@ body, menu{
         margin: 0;
 
     }
+    .usuario {
+        background-color: yellow;
+        display: flex;
+   
+    }
+    .contactos img {
+        border-radius: 100%;
+        width: 3rem;
+        height: 3rem;
+    }
+
               
